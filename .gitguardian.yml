@@ -1,0 +1,4 @@
+# GitGuardian config — mock data contains WireGuard-format keys (never real)
+# These are placeholder values for the frontend demo UI only.
+paths-ignore:
+  - "public/data/**"

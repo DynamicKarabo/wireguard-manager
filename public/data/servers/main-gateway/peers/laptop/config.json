@@ -1,5 +1,5 @@
 {
   "peerId": "laptop",
-  "conf": "[Interface]\nPrivateKey = gK0mN2pQ4rS6tU8vW0xY2zA4bC6dE8fG0hI2jK4lM=\nAddress = 10.0.0.2/32\nDNS = 1.1.1.1, 1.0.0.1\n\n[Peer]\nPublicKey = xTIBdK1GqZ5QrG3zF8kLmN4pR7sV9wY2jC6hA0eD=\nPresharedKey = A0bC2dE4fG6hI8jK0lM2nO4pQ6rS8tU0vW2xY4zA6=\nEndpoint = 203.0.113.1:51820\nAllowedIPs = 0.0.0.0/0, ::/0\nPersistentKeepalive = 25\n",
+  "conf": "[Interface]\nPrivateKey = <REDACTED_MOCK_KEY>\nAddress = 10.0.0.2/32\nDNS = 1.1.1.1, 1.0.0.1\n\n[Peer]\nPublicKey = <REDACTED_MOCK_KEY>\nPresharedKey = <REDACTED_MOCK_KEY>\nEndpoint = 203.0.113.1:51820\nAllowedIPs = 0.0.0.0/0, ::/0\nPersistentKeepalive = 25\n",
   "fileName": "laptop.conf"
 }
