@@ -1,0 +1,47 @@
+{
+  "servers": [
+    {
+      "id": "main-gateway",
+      "name": "Main Gateway",
+      "interface": "wg0",
+      "publicKey": "xTIBdK1GqZ5QrG3zF8kLmN4pR7sV9wY2jC6hA0eD=",
+      "address": "10.0.0.1/24",
+      "listenPort": 51820,
+      "status": "active",
+      "peerCount": 4,
+      "onlinePeerCount": 3,
+      "totalRxBytes": 2147483648,
+      "totalTxBytes": 1073741824,
+      "lastUpdated": "2026-06-08T14:30:00Z"
+    },
+    {
+      "id": "secondary-vpn",
+      "name": "Secondary VPN",
+      "interface": "wg1",
+      "publicKey": "aB3dE5fGhIjKlMnOpQrStUvWxYz123456789AbCdEf=",
+      "address": "10.0.1.1/24",
+      "listenPort": 51821,
+      "status": "active",
+      "peerCount": 2,
+      "onlinePeerCount": 1,
+      "totalRxBytes": 536870912,
+      "totalTxBytes": 268435456,
+      "lastUpdated": "2026-06-08T14:29:00Z"
+    },
+    {
+      "id": "dev-cluster",
+      "name": "Dev Cluster",
+      "interface": "wg2",
+      "publicKey": "9LmNoPqRsTuVwXyZaBcDeFgHiJkMnOpQrStUvWxYz=",
+      "address": "10.0.2.1/24",
+      "listenPort": 51822,
+      "status": "inactive",
+      "peerCount": 0,
+      "onlinePeerCount": 0,
+      "totalRxBytes": 0,
+      "totalTxBytes": 0,
+      "lastUpdated": "2026-06-07T22:00:00Z"
+    }
+  ],
+  "generatedAt": "2026-06-08T14:30:00Z"
+}

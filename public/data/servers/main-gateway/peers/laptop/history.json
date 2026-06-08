@@ -1,0 +1,12 @@
+{
+  "peerId": "laptop",
+  "snapshots": [
+    { "t": "2026-06-08T14:00:00Z", "rxBytes": 1509949440, "txBytes": 503316480, "handshakeAgeSeconds": 30 },
+    { "t": "2026-06-08T14:05:00Z", "rxBytes": 1526726656, "txBytes": 508559360, "handshakeAgeSeconds": 25 },
+    { "t": "2026-06-08T14:10:00Z", "rxBytes": 1543503872, "txBytes": 513802240, "handshakeAgeSeconds": 35 },
+    { "t": "2026-06-08T14:15:00Z", "rxBytes": 1560281088, "txBytes": 519045120, "handshakeAgeSeconds": 28 },
+    { "t": "2026-06-08T14:20:00Z", "rxBytes": 1577058304, "txBytes": 524288000, "handshakeAgeSeconds": 40 },
+    { "t": "2026-06-08T14:25:00Z", "rxBytes": 1572864000, "txBytes": 524288000, "handshakeAgeSeconds": 60 },
+    { "t": "2026-06-08T14:30:00Z", "rxBytes": 1572864000, "txBytes": 524288000, "handshakeAgeSeconds": 45 }
+  ]
+}

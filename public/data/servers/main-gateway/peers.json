@@ -1,0 +1,70 @@
+{
+  "serverId": "main-gateway",
+  "peers": [
+    {
+      "id": "laptop",
+      "serverId": "main-gateway",
+      "name": "laptop",
+      "publicKey": "L4k4mN7pQrS0tU2vW4xY6zA8bC0dE2fG4hI6jK8lM=",
+      "allowedIps": ["10.0.0.2/32"],
+      "endpoint": "203.0.113.45:51820",
+      "latestHandshake": "2026-06-08T14:29:15Z",
+      "handshakeAgeSeconds": 45,
+      "rxBytes": 1572864000,
+      "txBytes": 524288000,
+      "persistentKeepalive": 25,
+      "enabled": true,
+      "usesPresharedKey": true,
+      "health": "online"
+    },
+    {
+      "id": "phone",
+      "serverId": "main-gateway",
+      "name": "phone",
+      "publicKey": "mO4pQ6rS8tU0vW2xY4zA6bC8dE0fG2hI4jK6lM8nO=",
+      "allowedIps": ["10.0.0.3/32"],
+      "endpoint": "198.51.100.23:51820",
+      "latestHandshake": "2026-06-08T14:28:30Z",
+      "handshakeAgeSeconds": 90,
+      "rxBytes": 268435456,
+      "txBytes": 536870912,
+      "persistentKeepalive": 25,
+      "enabled": true,
+      "usesPresharedKey": false,
+      "health": "online"
+    },
+    {
+      "id": "server-01",
+      "serverId": "main-gateway",
+      "name": "server-01",
+      "publicKey": "qU0wV2xY4zA6bC8dE0fG2hI4jK6lM8nO0pQ2rS4tU=",
+      "allowedIps": ["10.0.0.10/32", "192.168.1.0/24"],
+      "endpoint": "10.10.0.1:51820",
+      "latestHandshake": "2026-06-08T14:25:00Z",
+      "handshakeAgeSeconds": 300,
+      "rxBytes": 524288000,
+      "txBytes": 1073741824,
+      "persistentKeepalive": null,
+      "enabled": true,
+      "usesPresharedKey": true,
+      "health": "degraded"
+    },
+    {
+      "id": "old-phone",
+      "serverId": "main-gateway",
+      "name": "old-phone",
+      "publicKey": "wY6zA8bC0dE2fG4hI6jK8lM0nO2pQ4rS6tU8vW0xY=",
+      "allowedIps": ["10.0.0.4/32"],
+      "endpoint": null,
+      "latestHandshake": "2026-06-07T06:00:00Z",
+      "handshakeAgeSeconds": 117000,
+      "rxBytes": 134217728,
+      "txBytes": 67108864,
+      "persistentKeepalive": 25,
+      "enabled": false,
+      "usesPresharedKey": false,
+      "health": "offline"
+    }
+  ],
+  "generatedAt": "2026-06-08T14:30:00Z"
+}

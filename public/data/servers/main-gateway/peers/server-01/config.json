@@ -1,0 +1,5 @@
+{
+  "peerId": "server-01",
+  "conf": "[Interface]\nPrivateKey = qU0wV2xY4zA6bC8dE0fG2hI4jK6lM8nO0pQ2rS4tU=\nAddress = 10.0.0.10/32\nDNS = 1.1.1.1\n\n[Peer]\nPublicKey = xTIBdK1GqZ5QrG3zF8kLmN4pR7sV9wY2jC6hA0eD=\nPresharedKey = C8eF0gH2iJ4kL6mN8oP0qR2sT4uV6wX8yZ0aB2cD4=\nEndpoint = 203.0.113.1:51820\nAllowedIPs = 10.0.0.0/24, 192.168.1.0/24\nPersistentKeepalive = 25\n",
+  "fileName": "server-01.conf"
+}

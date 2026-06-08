@@ -1,0 +1,5 @@
+{
+  "peerId": "phone",
+  "conf": "[Interface]\nPrivateKey = mO4pQ6rS8tU0vW2xY4zA6bC8dE0fG2hI4jK6lM8nO=\nAddress = 10.0.0.3/32\nDNS = 1.1.1.1\n\n[Peer]\nPublicKey = xTIBdK1GqZ5QrG3zF8kLmN4pR7sV9wY2jC6hA0eD=\nEndpoint = main-gateway.example.com:51820\nAllowedIPs = 0.0.0.0/0, ::/0\nPersistentKeepalive = 25\n",
+  "fileName": "phone.conf"
+}

@@ -1,0 +1,38 @@
+{
+  "serverId": "secondary-vpn",
+  "peers": [
+    {
+      "id": "router",
+      "serverId": "secondary-vpn",
+      "name": "router",
+      "publicKey": "eF0gH2iJ4kL6mN8oP0qR2sT4uV6wX8yZ0aB2cD4eF=",
+      "allowedIps": ["10.0.1.2/32", "192.168.2.0/24"],
+      "endpoint": "203.0.113.1:51821",
+      "latestHandshake": "2026-06-08T14:28:45Z",
+      "handshakeAgeSeconds": 75,
+      "rxBytes": 402653184,
+      "txBytes": 201326592,
+      "persistentKeepalive": 30,
+      "enabled": true,
+      "usesPresharedKey": false,
+      "health": "online"
+    },
+    {
+      "id": "backup-server",
+      "serverId": "secondary-vpn",
+      "name": "backup-server",
+      "publicKey": "gH2iJ4kL6mN8oP0qR2sT4uV6wX8yZ0aB2cD4eF0gH=",
+      "allowedIps": ["10.0.1.3/32"],
+      "endpoint": "10.10.0.5:51821",
+      "latestHandshake": "2026-06-08T12:00:00Z",
+      "handshakeAgeSeconds": 9000,
+      "rxBytes": 16777216,
+      "txBytes": 33554432,
+      "persistentKeepalive": null,
+      "enabled": true,
+      "usesPresharedKey": true,
+      "health": "offline"
+    }
+  ],
+  "generatedAt": "2026-06-08T14:30:00Z"
+}
